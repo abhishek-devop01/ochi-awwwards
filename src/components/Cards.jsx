@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <div className="w-full h-screen bg-zinc-200 flex items-center px-20 gap-5">
+    <div data-scroll data-scroll-section data-scroll-speed=".-6" className="w-full sticky h-screen bg-zinc-200 flex items-center px-20 gap-5">
       <div className="cardcontainer w-1/2 h-[55vh]">
         <div className="card rounded-xl w-full h-full bg-[#004D43] relative flex items-center justify-center ">
           <img src={"./assets/logo001.svg"} alt="" />
